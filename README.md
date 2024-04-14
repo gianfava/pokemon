@@ -1,3 +1,4 @@
+
 # PokeDex em React JS + API
 
 Projeto moderno desenvolvido em  [ React JS](https://github.com/facebook/create-react-app) como atividade Avaliativa da disciplina de Desenvolvimento Web III do Curso de Desenvolvimento de Software Mutiplataforma da FATEC Franca-SP.
@@ -13,9 +14,11 @@ Tela:  **Home**
 ## Funcionalidades
  - Cards Responsivos
  - Animações de Transição (CSS)
+ - Pokemons SVG (Vetorizados)
  - Carregamento Dinâmico da API Oficial para Pesquisa `loadAPI()`  e  ` setSearch()`
  - Função que altera as cores de acordo com o tipo de pokemon
  - Função que altera o wallpaper de acordo com o tipo de pokemon
+ - Wallpapers criados com ajuda de AI 
  - Uso de Rotas Internas `react-router-dom`
  - Função de Carregamento Aleatório `handleRandomPokemon()`
  - Uso de Local Storage para guardar último pokemon
@@ -45,7 +48,6 @@ Tela:  **Sobre**
 Execute o app a partir do endereço  [http://localhost:3000](http://localhost:3000) para visualizar em seu navegador.
 
 Na maioria das vezes, após dar o comando **`npm start`** , automaticamente o navegador irá abrir em [http://localhost:3000](http://localhost:3000/)
-
 
 
 
