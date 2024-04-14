@@ -1,0 +1,268 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  transition: all .3s;
+}
+
+body{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden; 
+}
+
+.texto{
+  text-shadow: 3px 0px 7px rgba(82, 82, 82, 0.842), -3px 0px 7px rgba(78, 78, 78, 0.8), 0px 4px 7px rgba(82, 81, 81, 0.8);
+}
+
+ul{
+  font-size: 12px;
+}
+
+.card {
+
+  position: relative;
+  width:190px;
+  margin-top: 20px;
+  margin-left: -30px;
+  padding: 30px 20px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.377);
+
+  background: radial-gradient(#000);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 1px 0px #000;
+  filter: dropshadow(color=#000, offx=0px, offy=1px);
+
+}
+
+input, button{
+  padding: 10px;
+  margin: 10px;
+  font-family: sans-serif;
+  font-size: 18px;
+
+
+}
+
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  font-weight: 600;
+  color: #404060;
+}
+
+#dica{
+  position:fixed;
+	bottom:40px;
+	right:40px;
+  background-color: beige;
+  font-size: small;
+  z-index:100;
+  width: 200px;
+  box-shadow: 2px 2px 3px #999;
+  border-radius:10px;
+}
+
+#elemental{
+  position:fixed;
+	bottom:40px;
+	left:40px;
+  background-color: beige;
+  font-size: small;
+  z-index:100;
+  width: 200px;
+  box-shadow: 2px 2px 3px #999;
+  border-radius:10px;
+}
+.card img {
+  display: block;
+  width: 150px;
+  height: 200px;
+  position: relative;
+  margin: 10px auto;
+  /* transition: 0.5s ease; */
+  /* image-rendering: pixelated; */
+
+}
+.poke-name {
+  text-align: center;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.87) , 1px 2px 7px rgb(2, 2, 2);
+  color:white;
+  text-transform: capitalize;
+  font-size: large;
+  padding: 15px;
+
+}
+.ribbon {
+  right: 70px;
+  top: -12px;
+  width: 80px;
+  font-size: 12px;
+  padding: 4px;
+  position: absolute;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.377);
+}
+
+.poke-type {
+  margin-top: 8px;
+  text-align: center;  
+  font-size: small;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.87)  , 1px 2px 7px rgb(2, 2, 2);
+  color:white;
+  border-radius: 20px;
+  padding: 7px;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  height: 110px;
+  width: 100%;
+
+  color:white;
+}
+
+@keyframes zoomOut {
+  from {
+    opacity: 0;
+    transform: scale(7);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.zoom-out {
+  animation: zoomOut 0.5s ease forwards;
+}
+
+
+.type-menu button {
+  margin: 5px;
+  padding: 10px;
+}
+
+.sidebar {
+  width: 250px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  overflow-y: auto;
+  background-color: #f1f1f1;
+}
+
+.pokemon-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.pokemon-item img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.logo{
+  max-width: 250px;
+}
+
+
+.button{
+  position:relative;
+  display:inline-block;
+  margin:10px;
+}
+
+.button a{
+  color:white;
+  font-family:Helvetica, sans-serif;
+  font-weight:bold;
+  font-size:20px;
+  text-align: center;
+  text-decoration:none;
+  background-color:#FFA12B;
+  display:block;
+  position:relative;
+  padding:10px 20px;
+  
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 1px 0px #000;
+
+  
+  -webkit-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  -moz-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.button a:active{
+  top:10px;
+  background-color:#F78900;
+  
+  -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+  -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #915100;
+  box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+}
+
+
+
+.box-sobre {
+
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.conteudo {
+
+  width: 500px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px 4px rgba(12,12,12,0.2);
+}
+
+.background-fade {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: -1; /* Garante que o background fique atrás do conteúdo */
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
