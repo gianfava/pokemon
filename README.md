@@ -6,6 +6,7 @@ Projeto moderno desenvolvido em  [ React JS](https://github.com/facebook/create-
 🚀 Para ver o APP em ação é só clicar [aqui](https://pokedex-gnataxtgn-gianfavas-projects.vercel.app/), ou na imagem abaixo:
 
 [Demo](https://pokedex-gnataxtgn-gianfavas-projects.vercel.app/)
+
 Tela:  **Home**
 [![Página Home](https://github.com/gianfava/pokemon/blob/master/src/screenshots/00.png?raw=true)](https://pokedex-gnataxtgn-gianfavas-projects.vercel.app/)
 ![enter image description here](https://github.com/gianfava/pokemon/blob/master/src/screenshots/05.png?raw=true)
@@ -26,7 +27,9 @@ Tela:  **Home**
  - Função que usa Menu Lateral Sugestivo de Pokemons para carregar a API `handleClick()`
 
 📘Para usar rota dinâmica, usar:
+
 `/pokemon/NomeDoPokemon`
+
 Exemplo:
 `/pokemon/pikachu` ou `/pokemon/mewtwo` 
  
