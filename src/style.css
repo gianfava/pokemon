@@ -238,7 +238,6 @@ header{
 
 
 .conteudo {
-
   width: 500px;
   background-color: #ffffff;
   padding: 20px;
@@ -265,4 +264,13 @@ header{
   to {
     opacity: 1;
   }
+}
+
+.poke-code{
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: #8197a3;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-weight: 500;
 }

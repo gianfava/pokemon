@@ -19,6 +19,9 @@ function Header() {
             <li className="button">
               <Link to="/sobre">Sobre</Link>
             </li>
+            <li className="button">
+              <Link to="/rotas">Rotas</Link>
+            </li>
           </ul>
         </nav>
       </div>
