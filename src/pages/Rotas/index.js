@@ -37,23 +37,19 @@ function Rota() {
     <div class="box-sobre">
       <div class="conteudo">
         <h2>Rota Dinâmica</h2>
-        <img
-          src="https://raw.githubusercontent.com/wellrccity/pokedex-html-js/master/assets/img/pokemons/poke_25.gif"
-          style={{ maxWidth: '100px', float: 'right' }}
-        ></img>
         Para usar uma rota dinâmica basta digitar:
         <p>
           <code className="poke-code">/pokemon/:name</code>
         </p>
         <br />
-        <img
-          src="https://raw.githubusercontent.com/wellrccity/pokedex-html-js/master/assets/img/pokemons/poke_1.gif"
-          style={{ maxWidth: '100px', float: 'right' }}
-        ></img>
         <p>Exemplo:</p>
         <code className="poke-code">/pokemon/pikachu</code>
         <br />
         <br />
+        <img
+          src="https://static.wikia.nocookie.net/pokeone/images/9/98/001Bulbasaur.gif"
+          style={{ maxWidth: '100px', float: 'right' }}
+        ></img>
         <p>Exemplo:</p>
         <code className="poke-code">/pokemon/bulbasaur</code>
       </div>
