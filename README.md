@@ -3,15 +3,15 @@
 
 Projeto moderno desenvolvido em  [ React JS](https://github.com/facebook/create-react-app) como atividade Avaliativa da disciplina de Desenvolvimento Web III do Curso de Desenvolvimento de Software Mutiplataforma da FATEC Franca-SP.
 
-🚀 Para ver o APP em ação é só clicar [aqui](https://pokedex-gnataxtgn-gianfavas-projects.vercel.app/), ou na imagem abaixo:
+🚀 Para ver o APP em ação é só clicar [aqui](https://pokedex-rho-taupe.vercel.app/), ou na imagem abaixo:
 
-[Demo](https://pokedex-gnataxtgn-gianfavas-projects.vercel.app/)
+[Demo](https://pokedex-rho-taupe.vercel.app/)
 
 Tela:  **Home**
-[![Página Home](https://github.com/gianfava/pokemon/blob/master/src/screenshots/00.png?raw=true)](https://pokedex-gnataxtgn-gianfavas-projects.vercel.app/)
-![enter image description here](https://github.com/gianfava/pokemon/blob/master/src/screenshots/05.png?raw=true)
-![enter image description here](https://github.com/gianfava/pokemon/blob/master/src/screenshots/3.png?raw=true)
-![enter image description here](https://github.com/gianfava/pokemon/blob/master/src/screenshots/04.png?raw=true)
+[![Página Home](https://github.com/gianfava/pokemon/blob/master/src/screenshots/00.png?raw=true)](https://pokedex-rho-taupe.vercel.app/)
+[![Tela pokemon2](https://github.com/gianfava/pokemon/blob/master/src/screenshots/05.png?raw=true)](https://pokedex-rho-taupe.vercel.app/)
+[![Tela pokemon3](https://github.com/gianfava/pokemon/blob/master/src/screenshots/3.png?raw=true)](https://pokedex-rho-taupe.vercel.app/)
+[![Tela pokemon4](https://github.com/gianfava/pokemon/blob/master/src/screenshots/04.png?raw=true)](https://pokedex-rho-taupe.vercel.app/)
 ## Funcionalidades
  - Cards Responsivos
  - Animações de Transição (CSS)
@@ -37,7 +37,7 @@ Exemplo:
 
 Tela:  **Sobre**
 
-![TELA SOBRE](https://github.com/gianfava/pokemon/blob/master/src/screenshots/sobre.png?raw=true) 
+[![TELA SOBRE](https://github.com/gianfava/pokemon/blob/master/src/screenshots/sobre.png?raw=true)](https://pokedex-rho-taupe.vercel.app/)
 
 ## Início: Como rodar o app?
 
