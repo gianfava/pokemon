@@ -1,70 +1,53 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# PokeDex em React JS + API
 
-## Available Scripts
+Projeto moderno desenvolvido em  [ React JS](https://github.com/facebook/create-react-app) como atividade Avaliativa da disciplina de Desenvolvimento Web III do Curso de Desenvolvimento de Software Mutiplataforma da FATEC Franca-SP.
 
-In the project directory, you can run:
+Para ver o APP em ação é só clicar [aqui](https://pokedex-gnataxtgn-gianfavas-projects.vercel.app/), ou na imagem abaixo:
+
+[Demo](https://pokedex-gnataxtgn-gianfavas-projects.vercel.app/)
+Tela:  **Home**
+[![Página Home](https://github.com/gianfava/pokemon/blob/master/src/screenshots/00.png?raw=true)](https://pokedex-gnataxtgn-gianfavas-projects.vercel.app/)
+![enter image description here](https://github.com/gianfava/pokemon/blob/master/src/screenshots/05.png?raw=true)
+![enter image description here](https://github.com/gianfava/pokemon/blob/master/src/screenshots/3.png?raw=true)
+![enter image description here](https://github.com/gianfava/pokemon/blob/master/src/screenshots/04.png?raw=true)
+## Funcionalidades
+ - Cards Responsivos
+ - Animações de Transição (CSS)
+ - Pokemons SVG (Vetorizados)
+ - Carregamento Dinâmico da API Oficial para Pesquisa `loadAPI()`  e  ` setSearch()`
+ - Função que altera as cores de acordo com o tipo de pokemon
+ - Função que altera o wallpaper de acordo com o tipo de pokemon
+ - Wallpapers criados com ajuda de AI 
+ - Uso de Rotas Internas `react-router-dom`
+ - Função de Carregamento Aleatório `handleRandomPokemon()`
+ - Uso de Local Storage para guardar último pokemon
+ - Função que usa Menu Lateral Sugestivo de Pokemons para carregar a API `handleClick()`
+ 
+ 
+
+Tela:  **Sobre**
+
+![TELA SOBRE](https://github.com/gianfava/pokemon/blob/master/src/screenshots/sobre.png?raw=true) 
+
+## Início: Como rodar o app?
+
+ 1. Você pode baixar todos os arquivos no formato compactado ZIP ou clonar este projeto no seu **VS Code** copiando e colando a seguinte expressão:
+
+   ### `git clone https://github.com/gianfava/pokemon.git`
+
+ 2. Para rodar o app, certifique-se de ter o **React JS**  instalado e estar na pasta do projeto.
+ ### `cd pokemon`
+ ou 
+### `cd pokemon-master`
+
+ 3. Depois, digite: `
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Execute o app a partir do endereço  [http://localhost:3000](http://localhost:3000) para visualizar em seu navegador.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Na maioria das vezes, após dar o comando **`npm start`** , automaticamente o navegador irá abrir em [http://localhost:3000](http://localhost:3000/)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
