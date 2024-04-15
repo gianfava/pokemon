@@ -1,9 +1,9 @@
 
-# PokeDex em React JS + API
+# 📒 PokeDex em React JS + API
 
 Projeto moderno desenvolvido em  [ React JS](https://github.com/facebook/create-react-app) como atividade Avaliativa da disciplina de Desenvolvimento Web III do Curso de Desenvolvimento de Software Mutiplataforma da FATEC Franca-SP.
 
-Para ver o APP em ação é só clicar [aqui](https://pokedex-gnataxtgn-gianfavas-projects.vercel.app/), ou na imagem abaixo:
+🚀 Para ver o APP em ação é só clicar [aqui](https://pokedex-gnataxtgn-gianfavas-projects.vercel.app/), ou na imagem abaixo:
 
 [Demo](https://pokedex-gnataxtgn-gianfavas-projects.vercel.app/)
 Tela:  **Home**
@@ -20,9 +20,15 @@ Tela:  **Home**
  - Função que altera o wallpaper de acordo com o tipo de pokemon
  - Wallpapers criados com ajuda de AI 
  - Uso de Rotas Internas `react-router-dom`
+ - Uso de Rotas Dinâmicas `useParams`
  - Função de Carregamento Aleatório `handleRandomPokemon()`
  - Uso de Local Storage para guardar último pokemon
  - Função que usa Menu Lateral Sugestivo de Pokemons para carregar a API `handleClick()`
+
+📘Para usar rota dinâmica, usar:
+`/pokemon/NomeDoPokemon`
+Exemplo:
+`/pokemon/pikachu` ou `/pokemon/mewtwo` 
  
  
 
