@@ -109,7 +109,7 @@ function Home() {
     const randomId = Math.floor(Math.random() * 649) + 1 // Gera um ID aleatório entre 1 e 649
     loadAPI(randomId)
   }
-
+// funcao
   return (
     <div className="container">
       <div className="background-fade" ref={backgroundRef}></div>{' '}
