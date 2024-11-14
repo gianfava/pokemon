@@ -36,7 +36,7 @@ function Sobre() {
   return (
     <div class="box-sobre">
       <div class="conteudo">
-        <h2>Sobre o site</h2>
+        <h2>Sobre o site- - TESTE</h2>
         <p>
           Esta página é uma Pokedex, como um atividade avaliativa da FATEC
           Franca WEB III, onde o usuário pode pesquisar qualquer Pokémon
